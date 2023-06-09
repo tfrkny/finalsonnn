@@ -1,0 +1,126 @@
+---
+title: "Küresel Savunma Harcamaları"
+author: 
+  - Tibethan Furkan Yalçın[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa-tr.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{turkish}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+abstract: |
+  Uluslararası arenada ülkelerin ekonomik ve siyasal alandaki gücünü belirleyen  unsurlardan birisi olan savunma sanayinde, dünyada yaşanan gelişmelere paralel olarak değişime, yeniliğe ve modernizasyona sürekli olarak ihtiyaç duyulmaktadır. Bununla birlikte yaşanan askeri ve siyasal krizler, bölgesel çatışmalar, ülkelerin stratejik emelleri nedeniyle silahlanmaya gitmeleri, özellikle Afrika ve Orta Doğu ülkelerinde artan uluslararası silah ticareti ülkelerin savunma harcamalarını arttırmıştır.Geçtiğimiz yüzyıla baktığımızda ise dünya üzerinde nedenleri ve sonuçlarıyla birbirinden farklı birçok savaş ve çatışma yaşanmıştır. Bu savaşların en büyüğü hiç şüphesiz Birinci ve İkinci Dünya Savaşlarıdır. Yaşanan bu savaşların ardından sıcak savaş dönemi sona ermiş ve soğuk savaş dönemi başlamıştır. Başını Amerika Birleşik Devletleri‘nin çektiği batı bloğu ile başını Rusya’ nın çektiği doğu bloğu ülkeleri yaşanan her savaş ve çatışma ortamında taraf olmuşlar ve olmaktadırlar.Tüm bu gelişmelere paralel olarak artan teknoloji nedeniyle silah sistemlerinde ayrı bir noktaya gelinmiş nükleer silahlar tüm dünyanın en büyük sorunu haline gelmiştir. Ülkeler yaşanan bu bloklaşmanın da etkisiyle küresel amaçlarının etkisinde kalarak diğer ülkelere üstünlük kurmak ve caydırıcılık amacıyla silah üretimini arttırmış ve üretim yapamayan ülkeler ise bu savaş ekonomisinin en büyük etkenleri olmuşlardır.Çalışmamız amacı tüm bu nedenlerle finansal serbestleşme sonrası dönemde (2000-2015) yılları arasında, ekonomik ve jeostratejik anlamda birbirlerine benzerlik gösteren ülkelerin ekonomilerinde savunma harcamalarının ne denli öneme sahip olduğunun incelemeye çalışılmasıdır.
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== NOTLAR ================================= -->
+<!-- ======================================================================= -->
+[^1]: 19080764, [Github Repo](https://github.com/tfrkny/finalsonnn.git)
+
+
+# Giriş
+Yüzyıllardır süre gelen dünya tarihinde ilk şehir devletlerinden günümüz modern ulus devletlerine kadar gelişen süreçte dünya sayısız savaş tecrübesi edinmiştir. Bu savaşalar kimi zaman iki aktör arasında yaşanırken kimi zamanda ikiden fazla aktörün de taraf olduğu bölgesel nitelikte savaşlarda meydana gelmiştir. En son yaklaşık 100 yıl önce dünya arka arkaya 2 küresel düzeyde savaşa sahne olmuştur. Ve halen günümüzde dahil dünyanın birçok yerinde fiili savaş devam etmektedir. Tüm bu sonuçlar neticesiyle dünya üzerindeki birçok devlet gelirlerinin büyük bir kısmını savunma harcamalarına ve savunma sanayi ürünlerinin ithalatı için kullanılmaktadır. Savunma harcamaları devletlerin siyasi varlığının ülke sınırları içerisinde veya dışarısında herhangi bir güvenlik zafiyetiyle karşılaşılması durumlarına hazırlık olarak milli gelirden yapılan harcamalardır.Bu çalışmanın konusuda ülkelerin savunma harcamalarına ne kadar önem verdiklerini irdelemek, gider kalemlerinin büyük bir çoğunluğunun bu harcamaları oluşturduğunu aktarmaya çalışmaktır. Çalışmada kullanılacak veriler; Stockholm Uluslararası Barış Araştırmaları Enstitüsü (@SIPRI) raporlarından baz alınarak oluşturulmuştur.
+
+
+
+## Çalışmanın Amacı
+Bu çalışmanın amacı küresel düzeyde yapılan savunma harcamalarının ülkelerin ne kadar önem verdiğini anlamak, uluslararası ticaretin büyük bir kısmının savunma sanayi ürünlerinden meydana geldiğinin üzerinde durmak ve bu ticaretin ülkelerin dış politikasının ve ekonomi politiği kavramının üzerinde nasıl bir etki bıraktığını analiz etmektir.
+
+## Literatür 
+
+Küreselleşme kavramının ülkelerin dış politika kararlarındaki etkisi o ülkenin güvenlik algısı ve buna bağlı olarak savunma harcamaları üzerindeki etkisidir.Araştırmacılara göre küreselleşen dünya uluslararası ticarette bir takım avantajlar sağlamış akabinde bu avantajlar bir takım fırsat maliyetleri oluşturmuş ve refah etkisini arttırmıştır. Bu nedenle ülkeler arası çatışma eğilimi azalacak ve savunma harcamalarının gider kalemleri içindeki payıda azalacaktır. Fakat elimizdeki veriler bunun tam tersi sonuç doğurduğunu göstermektedir. Çünkü küreselleşme kavramını farklı değerlendiren ulus devletleri güvenlik algılarının olumsuz yönde etkilenmesine bağlı olarak savunma harcamalarında artış görüldüğünü anlaşılmaktadır. @cengizkuresellecsme
+
+Günümüzde siyasi, coğrafi ve kültürel sınırların kısmende olsa ortadan kalkmasıyla sermayenin dolaşımdaki hızının artmasıyla birlikte ülkeler arasındaki bağlantılar ve ilişkiler çeşitlik kazanmıştır.Küreselleşme savunma harcamalarını diğer sosyal harcamalara göre daha fazla teşvik etmektedir. Buna bağlı olarakda küreselleşme çatışma ortamına, eşitsizliğe, huzursuzluğa neden olduğu düşünülmektedir. @torusdaugfinansal
+
+Geçtiğimiz yüzyıla baktığımızda ise dünya üzerinde nedenleri ve sonuçlarıyla birbirinden farklı birçok savaş ve çatışma yaşanmıştır. Bu savaşların en büyüğü hiç şüphesiz Birinci ve İkinci Dünya Savaşlarıdır. Yaşanan bu savaşların ardından sıcak savaş dönemi sona ermiş ve soğuk savaş dönemi başlamıştır. Başını Amerika Birleşik Devletleri (ABD) ‘nin çektiği batı bloğu ile başını Rusya’ nın çektiği doğu bloğu ülkeleri yaşanan her savaş ve çatışma ortamında taraf olmuşlar ve olmaktadırlar. Tüm bu gelişmelere paralel olarak artan teknoloji nedeniyle silah sistemlerinde ayrı bir noktaya gelinmiş nükleer silahlar tüm dünyanın en büyük sorunu haline gelmiştir. Ülkeler yaşanan bu bloklaşmanın da etkisiyle küresel amaçlarının etkisinde kalarak diğer ülkelere üstünlük kurmak ve caydırıcılık amacıyla silah üretimini arttırmış ve üretim yapamayan ülkeler ise bu savaş ekonomisinin en büyük piyonları olmuşlardır. @tuncay2017finansal
+
+Üzerinde uzlaşmaya varılamayan savunma harcamaları bir ülkenin kendi ulusal bağımsızlığını, topraklarının bütünlüğünü ve güvenliğini garanti altına almak için savunmaya atadığı bütün insan kaynağı ve materyali olarak tanımlandığında, kaynakların diğer hükümet harcamalarından güvenlik adına ayrılması gerekmektedir. Fakat devletin askeri ve sivil işlevlerinin iç içe geçmiş olması harcamaların askeri ve sivil olarak bölünmesini zorlaştırmaktadır. Savunma harcamalarının doğasında olan gizlilik, verilerin güvenirliği ile ilgili sorun oluşturmaktadır. Savunma harcamaları veya savunma harcamalardaki değişim, hükümetlerin niyetinin bir göstergesi olarak görülebilir. Komşuları, düşmanları ya da yerel eleştirileri üzerine çekmemek için hükümetler silahlanma seviyelerini gizlemek isteyebilirler. @erdem2018savunma
+
+Türkiye, iç ve dış tehdit algısının yüksek olduğu bir ülkedir. Bu nedenle savunma harcamaları ve bu kapsamda silah ithalatının dikkat çektiği önemli bir ülkedir. Türkiye, 2000-2009 yılları arasında dünyada en çok silah ithal eden ülkeler arasında altıncı sırada yer almıştır. 2018 yıllına gelindiğinde ise silah ithal eden ülkeler arasında on ikinci sıradadır. Ayrıca, Türkiye, savunma harcamaların GSYH içindeki payı açısından hem NATO üyesi ülkelerin hem de genel olarak diğer ülkelerin ortalamasının üzerindedir. Ülkenin içinde bulunduğu jeopolitik ve jeostratejik konum, karşı karşıya olduğu tehditler ve bölge açısından önemi Türkiye’nin hem savunma harcamalarının hem de hem silah ithalatının görece olarak yüksek olmasına neden olmakta ve dış borçlarla ilişkisini önemli bir konu haline getirmektedir. @karakurt5turkiye
+
+Savunma harcamaları; ülkeye karşı saldırılarda caydırıcı bir güç olmasının yanında, olası bir saldırı ile karşı karşıya kaldığında bu saldırıya karşı konularak engellemesini sağlamak için yapılan harcamalardır. Savunma harcamalarının bu iki yönü düşünüldüğünde bu harcamaların hem barış hem de savaş dönemlerinde gerçekleştirilmesi gerektiğini ortaya koymaktadır. Saldırı veya savaş öncesi gerçekleştirilen savunma harcamaları devletin gücünü gösterir. Saldırı anında ise tehlikeye karşı konulması açısından önem arz etmektedir. Bu nedenle ülkeler genellikle gerginlik dönemlerinde bu harcamalarının düzeyini arttırırlar. Savunma harcamalarını belirleyen birçok faktör bulunmaktadır. Ekonomik faktörler (milli gelir, bütçe) ve ekonomik olmayan faktörler (coğrafi konum, jeopolitik konum ve siyasi rejim) olarak iki ana başlık altında düşünülebilir. @yolcu2020military
+
+
+# Veri 
+Bu çalışmada ülkelerin 2000-2015 yılları arasında savunma sanayisindeki gelişimleri oransal olarak verilmiş bulunan bir veri seti kullanılmıştır. Verileri üzerinde herhangi bir değişiklik yapılmamış olup eksik bilgiler olduğu göz önünde bulundurularak ham veri seti olduğu gibi kullanılmıştır.
+
+```{r, echo=FALSE}
+library(tidyverse)
+library(here)
+survey <- read_csv(here("../data/survey.csv"))
+```
+
+
+```{r, echo=FALSE}
+library(xtable) 
+library(summarytools)
+st_options(lang = "tr")
+```
+
+
+```{r results='asis', echo=FALSE}
+survey %>%
+  select("2000", "2003", "2006", "2009", "2012", "2015") %>% 
+  descr(stats = c("mean", "sd", "min", "med", "max"), transpose = TRUE) %>% 
+  xtable(caption = "Özet İstatistikler",
+         label = "tab:ozet",
+         align = c("l", "c", "c", "c", "c", "c")) %>% 
+  print(booktabs = TRUE, comment = FALSE, caption.placement = "top")
+```
+
+Tablo \ref{tab:ozet}, 2000-2015 yılları arasında savunma sanayi gelişim oranlarının ortalama değerlerini, minimum, medyan ile maksimum değerlerini ve standart sapmalarını göstermektedir. 
+
+# Yöntem ve Veri Analizi
+Regresyon analizi, aralarında sebep-sonuç ilişkisi bulunan iki veya daha fazla değişken arasındaki ilişkiyi, o konu ile ilgili tahminler ya da kestirimler  yapabilmek amacıyla regresyon modeli olarak adlandırılan matematiksel bir model ile karakterize eden bir istatistik analiz tekniğidir. Regresyon modeli uydurulduktan sonra modelin yeterli olup olmadığının kontrolü regresyon analizinin en önemli bölümüdür.Uydurulan modelin doğru modele yeterli derecede yaklaştığını garanti etmek ve en küçük kareler regresyon analizinin tüm varsayımlarını sağlayıp sağlamadığını kontrol etmek gerekir. Eğer regresyon modeli yeterli uyum sağlamazsa zayıf veya yanıltıcı sonuçlar verecektir. Genellikle regresyon analizinde modelin yeterliliğini belirlemek amacıyla kullanılan varyans analizi ve açıklayıcı bilgiler verebilen ancak uygulamada pek fazla kullanılmayan başka testler de vardır. @csahinler
+
+$$
+Y = X_{\beta} \epsilon 
+$$
+ Y ; ($n_{x1}$) boyutlu şans değişkeni vektörü,X ; ($n_{xp}$) boyutlu 
+bilinen katsayı matrisi,$\beta$ ; ($n_{x1}$) boyutlu bilinmeyen parametre vektörü,$\epsilon$ ; ($n_{x1}$) boyutlu 
+şans değişkeni vektörü olup, ortalaması sıfır (E($\epsilon$)=0) ve varyansı (var($\epsilon$)=$\sigma$2I) sabittir.   
+
+
+Tek yönlü varyans analizi (ANOVA) normal dağılımlı bir seride üç ve daha fazla bağımsız ortalama arasındaki farkın manidarlığının hesaplanmasında kullanılır. ANOVA tek başına üç veya daha fazla grubun aritmetik ortalamalarını kümülatif olarak karşılaştırır; bu karşılaştırmalardan en az birisi anlamlı olduğunda ANOVA sonucu da anlamlı bulunur.
+
+
+
+```{r plot, echo=FALSE, fig.align='center', fig.cap='Strateji Grafiği'}  
+survey %>% 
+  ggplot(aes(x = 2000, y = 2015)) +
+  geom_point() +
+  geom_smooth() +
+  scale_x_continuous("2000") + 
+  scale_y_continuous("2015")
+```
+
+
+
+
+
+# Sonuç
+Ortadoğu güvenlik tarihi, diplomatik güvenlik döneminde Avrupalı güçlerin tekelinde ve sonrasında Soğuk Savaş döneminden itibaren ABD-Rusya ikilisi arasında yapılan güç paylaşımı sonucunda şekillenmiştir.Ortadoğu bölgesel güvenlik kompleksi içerisinde yer alan devletlerin askeri harcamalarına dair yapılan inceleme, bölgede yayılmacı kuvvet varlığı ile ciddi bir pozitif korelasyon içerisindedir. Devletlerin yayılma aksiyomuna girmelerinin arkasındaki sebeplere bakmaksızın yapılan inceleme nicel anlamda bu ilişkiyi doğrulamaktadır. İsrail ve Irak bölge içerisinde Rusya ve ABD ise bölge dışından gösterdiği yayılma faaliyetleri ile bölgesel askeri harcama toplamında sıçramaları tetiklemiştir. Buna ek olarak jeopolitik konumu nedeniyle Türkiye de 2000 ile 2010 yılları arasında savunma harcamalarında ekseriyetle bir artış söz konusu olmuştur. Ortadoğudaki yaşanan gelişmeler ülkemizin savunma stratejileri doğrultusunda askeri harcamaların bütçedeki yerini arttırmaya yöneliktir. Bu çalışma ilerleyen süreçte küresel anlamda yapılmak istenen farklı inceleme çalışmalarında yeterli olmayabilir. Zira bu çalışmada genellikle bölgesinde siyasi ve askeri açıdan söz sahibi ülkelerin verileri kullanılarak yapılmaya çalışılmıştır. Çalışmanın daha ileri boyuta taşınması için bölgedeki diğer ülkelerinde verileri çalışmaya dahil edilebilir. Ayrıca savunma harcamaları ülkelerin GSYH düzeyi ile ilişkili olduğundan savunma harcamaları verilerin içerisne GSYH verileride dahil edilerek analiz geliştirilebilir.
+
+\newpage
+# Kaynakça {#references}
+<div id="refs"></div>
+
